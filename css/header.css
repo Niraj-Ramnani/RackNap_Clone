@@ -1,0 +1,52 @@
+/* ==========================================================
+   Header & Navigation Styles
+   ========================================================== */
+
+.site-header {
+  position: relative;
+  background: var(--white);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.logo img {
+  height: 48px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--dark);
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--orange);
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--dark);
+}

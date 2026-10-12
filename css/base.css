@@ -1,0 +1,105 @@
+/* ==========================================================
+   Base Styles, Variables, Reset & Utility Classes
+   ========================================================== */
+
+:root {
+  --orange: #E85D24;
+  --orange-hover: #D04E18;
+  --dark: #1A1614;
+  --dark-card: #241F1C;
+  --cream: #FDF8F4;
+  --text-gray: #55504A;
+  --muted-gray: #9E988F;
+  --border-light: #EBE5DF;
+  --white: #FFFFFF;
+  --font-heading: 'Archivo', sans-serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--dark);
+  background-color: var(--white);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-orange {
+  color: var(--orange);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Reusable Buttons */
+.btn {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 50px;
+  padding: 12px 28px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: var(--orange);
+  color: var(--white);
+  border: 1.5px solid var(--orange);
+}
+
+.btn-primary:hover {
+  background-color: var(--orange-hover);
+  border-color: var(--orange-hover);
+}
+
+.btn-outline {
+  background-color: var(--white);
+  color: var(--dark);
+  border: 1.5px solid var(--dark);
+}
+
+.btn-outline:hover {
+  background-color: var(--orange);
+  border-color: var(--orange);
+  color: var(--white);
+}
+
+.btn-nav {
+  padding: 8px 22px;
+  font-size: 14px;
+}
+
+.btn-card {
+  width: 100%;
+  background: var(--dark);
+  color: var(--white);
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  margin-top: auto;
+  text-align: center;
+  transition: all 0.25s ease;
+}

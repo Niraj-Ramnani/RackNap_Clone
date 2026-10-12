@@ -1,0 +1,88 @@
+/* ==========================================================
+   Hero Section Styles
+   ========================================================== */
+
+.hero-section {
+  background-color: var(--cream);
+  padding: 60px 0 50px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.rating-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 4px 12px;
+  border-radius: 30px;
+  border: 1px solid #EAE3DC;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.g2-icon {
+  background: #FF492C;
+  color: #fff;
+  font-weight: 800;
+  font-size: 11px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-score {
+  font-weight: 700;
+}
+
+.stars {
+  color: #FF492C;
+  font-size: 12px;
+}
+
+.rating-source {
+  color: #666;
+}
+
+.hero-title {
+  font-family: var(--font-heading);
+  font-size: 50px;
+  line-height: 1.12;
+  font-weight: 800;
+  margin-bottom: 20px;
+  letter-spacing: -0.02em;
+}
+
+.hero-desc {
+  font-size: 16px;
+  color: var(--text-gray);
+  max-width: 580px;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 14px;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 12px;
+  filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.08));
+}
